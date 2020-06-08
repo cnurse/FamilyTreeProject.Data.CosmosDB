@@ -66,7 +66,7 @@ namespace FamilyTreeProject.Data.CosmosDB
         {
             Requires.NotNull(item);
             
-            _db.CreateDocumentAsync(_documentCollectionUri, item.ToDataModel(true));
+            await _db.CreateDocumentAsync(_documentCollectionUri, item.ToDataModel(true));
         }
 
         /// <summary>
