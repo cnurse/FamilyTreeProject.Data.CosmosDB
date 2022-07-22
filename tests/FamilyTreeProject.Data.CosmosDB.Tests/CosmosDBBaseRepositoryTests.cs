@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using FamilyTreeProject.Core.Common;
-using FamilyTreeProject.Data.Common.Mapping;
+using FamilyTreeProject.Common.Models;
 using Microsoft.Azure.Documents;
 using Microsoft.Azure.Documents.Client;
 using Moq;

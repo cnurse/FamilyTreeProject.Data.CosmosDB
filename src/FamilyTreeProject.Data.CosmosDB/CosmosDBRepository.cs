@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using FamilyTreeProject.Core.Collections;
-using FamilyTreeProject.Core.Common;
-using FamilyTreeProject.Core.Contracts;
-using FamilyTreeProject.Core.Data;
+using FamilyTreeProject.Common.Data;
+using FamilyTreeProject.Common.Mapping;
+using FamilyTreeProject.Common.Models;
 using Microsoft.Azure.Documents.Client;
-using FamilyTreeProject.Data.Common.Mapping;
 using Microsoft.Azure.Documents;
+using Naif.Core.Collections;
+using Naif.Core.Contracts;
 
 namespace FamilyTreeProject.Data.CosmosDB
 {

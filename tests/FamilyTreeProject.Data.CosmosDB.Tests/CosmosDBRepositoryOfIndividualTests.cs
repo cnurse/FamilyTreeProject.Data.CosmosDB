@@ -1,4 +1,4 @@
-﻿using FamilyTreeProject.Core;
+﻿using FamilyTreeProject.Common.Models;
 using NUnit.Framework;
 
 namespace FamilyTreeProject.Data.CosmosDB.Tests
